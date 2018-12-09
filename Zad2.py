@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 
-class Cake:
-    pass
-
-cake = Cake()
-
-print(cake)
-print(isinstance(cake, Cake))
-print(isinstance(cake, object))
-
-
-class Bath_bun(Cake):
+class Bath_bun():
     pass
 
 bath_bun = Bath_bun()
