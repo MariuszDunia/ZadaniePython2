@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-class Cake():
-    pass
+class Cake():       #Klasa Ciasto
+    pass            #nic nie robić
 
 cake = Cake()
 
@@ -10,8 +10,8 @@ print(isinstance(cake, Cake))
 print(isinstance(cake, object))
 
 
-class BathBun(Cake):
-    pass
+class BathBun(Cake):         #klasa drożdżówka z rodzynkami
+    pass                     #nic nie robić
 
 bath_bun = BathBun()
 
@@ -20,11 +20,11 @@ print(isinstance(bath_bun, BathBun))
 print(isinstance(bath_bun, Cake))
 print(isinstance(bath_bun, object))
 
-class Yeast(BathBun):
-    pass
+class Yeast(BathBun):        #klasa drożdże
+    pass                     # nic nie robić
 
-class Raisin(BathBun):
-    pass
+class Raisin(BathBun):       #klasa rodzynki
+    pass                     #nic nie robić
 
 yeast = Yeast()
 raisin = Raisin()
